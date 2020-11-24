@@ -16,7 +16,7 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-
+    //http://localhost:8101/7
     @GetMapping("/{userId}")
     public JsonResult<User> getUser(@PathVariable Integer userId) {
         log.info("get user, userId="+userId);
@@ -25,7 +25,7 @@ public class UserController {
     }
     //http://localhost:8101/7/score?score=123
     @GetMapping("/{userId}/score")
-    public JsonResult addScore(
+    public JsonResult<User> addScore(
             @PathVariable Integer userId, Integer score) {
         userService.addScore(userId, score);
         return JsonResult.ok().data(userId+"增加积分"+score);

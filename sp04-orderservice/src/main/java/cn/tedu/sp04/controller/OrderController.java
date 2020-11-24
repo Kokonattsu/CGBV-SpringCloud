@@ -20,6 +20,7 @@ import lombok.extern.slf4j.Slf4j;
 public class OrderController {
     @Autowired
     private OrderService orderService;
+    //http://localhost:8201/1
     //根据订单id获取订单
     @GetMapping("/{orderId}")
     public JsonResult<Order> getOrder(@PathVariable String orderId) {
@@ -29,6 +30,7 @@ public class OrderController {
         return JsonResult.ok(order);
     }
 
+    //http://localhost:8201/
     @GetMapping("/")
     public JsonResult addOrder() {
         //模拟post提交的数据
