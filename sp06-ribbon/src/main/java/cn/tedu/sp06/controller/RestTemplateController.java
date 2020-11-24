@@ -13,7 +13,7 @@ import java.util.List;
 
 @RestController
 @Slf4j
-public class RibbonController {
+public class RestTemplateController {
 
     @Autowired
     private RestTemplate restTemplate;
