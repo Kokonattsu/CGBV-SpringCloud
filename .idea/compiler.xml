@@ -9,7 +9,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="test-feign" />
         <module name="sp02-itemservice" />
-        <module name="sp09-feign" />
         <module name="sp05-eureka" />
         <module name="sp01-commons" />
         <module name="sp08-hystrix-dashboard" />

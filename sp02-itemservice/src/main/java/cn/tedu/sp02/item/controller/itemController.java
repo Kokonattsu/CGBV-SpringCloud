@@ -20,7 +20,7 @@ public class itemController {
     private String port;
 
     @GetMapping("/{orderId}")
-    public JsonResult doGetItem(@PathVariable String orderId) throws InterruptedException {
+    public JsonResult<List<Item>> doGetItem(@PathVariable String orderId) throws InterruptedException {
 
         ///--设置随机延迟
         if(Math.random()<0.6) {
@@ -35,7 +35,13 @@ public class itemController {
 
     @PostMapping("/deleteItem")
     public JsonResult doDecreaseNumbers(
-            @RequestBody List<Item> itemList){
+            @RequestBody List<Item> itemList) throws InterruptedException {
+        ///--设置随机延迟
+        if(Math.random()<0.6) {
+            long t = new Random().nextInt(5000);
+            log.info("item-service-"+port+" doGetItem- 暂停 "+t);
+            Thread.sleep(t);
+        }
         itemService.decreaseNumbers(itemList);
         return JsonResult.ok().msg(port);
     }
