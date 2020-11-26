@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.List;
 
-@FeignClient(name ="item-service")
+@FeignClient(name ="item-service",fallback = ItemClientFB.class)
 public interface ItemClient {
 
     @GetMapping("/{orderId}")
