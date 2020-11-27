@@ -1,13 +1,13 @@
-package cn.tedu.sp08;
+package cn.tedu.sp10;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Sp08HystrixDashboardApplicationTests {
+class Sp10TurbineApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+    @Test
+    void contextLoads() {
+    }
 
 }
