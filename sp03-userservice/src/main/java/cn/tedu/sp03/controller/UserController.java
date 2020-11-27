@@ -25,11 +25,11 @@ public class UserController {
     @GetMapping("/{userId}")
     public JsonResult<User> getUser(@PathVariable Integer userId) throws InterruptedException {
         ///--设置随机延迟
-        if(Math.random()<0.6) {
-            long t = new Random().nextInt(5000);
-            log.info("item-service-"+port+" doGetItem- 暂停 "+t);
-            Thread.sleep(t);
-        }
+//        if(Math.random()<0.6) {
+//            long t = new Random().nextInt(5000);
+//            log.info("item-service-"+port+" doGetItem- 暂停 "+t);
+//            Thread.sleep(t);
+//        }
 
         log.info("get user, userId="+userId);
         User u = userService.getUser(userId);
@@ -40,11 +40,11 @@ public class UserController {
     public JsonResult addScore(
             @PathVariable Integer userId, Integer score) throws InterruptedException {
         ///--设置随机延迟
-        if(Math.random()<0.6) {
-            long t = new Random().nextInt(5000);
-            log.info("item-service-"+port+" doGetItem- 暂停 "+t);
-            Thread.sleep(t);
-        }
+//        if(Math.random()<0.6) {
+//            long t = new Random().nextInt(5000);
+//            log.info("item-service-"+port+" doGetItem- 暂停 "+t);
+//            Thread.sleep(t);
+//        }
         userService.addScore(userId, score);
         return JsonResult.ok().data(userId+"增加积分"+score);
     }

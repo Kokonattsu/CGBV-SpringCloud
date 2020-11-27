@@ -23,7 +23,7 @@ public class itemController {
     public JsonResult<List<Item>> doGetItem(@PathVariable String orderId) throws InterruptedException {
 
         ///--设置随机延迟
-        if(Math.random()<0.6) {
+        if(Math.random()<0.9) {
             long t = new Random().nextInt(5000);
             log.info("item-service-"+port+" doGetItem- 暂停 "+t);
             Thread.sleep(t);
