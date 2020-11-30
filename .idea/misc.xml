@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/sp08-hystrix-dashboard/pom.xml" />
         <option value="$PROJECT_DIR$/sp11-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/sp12-config/pom.xml" />
+        <option value="$PROJECT_DIR$/../rabbitmq/rabbitmq-api/pom.xml" />
       </list>
     </option>
   </component>
