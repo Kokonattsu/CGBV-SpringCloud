@@ -5,6 +5,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.Random;
 
+import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -53,14 +54,16 @@ public class OrderServiceImpl implements OrderService {
 	@Autowired
 	PdOrderItemMapper pdOrderItemMapper;
 
-
+	@Autowired
+	private AmqpTemplate amqpTemplate;
 
 	
 	@Override
 	public String saveOrder(PdOrder pdOrder) throws Exception {
 		String orderId = generateId();
 		pdOrder.setOrderId(orderId);
-
+		//把订单加入队列
+		amqpTemplate.convertAndSend("orderQueue",pdOrder);
 		
 //		PdShipping pdShipping = pdShippingMapper.selectByPrimaryKey(pdOrder.getAddId());
 //		pdOrder.setShippingName(pdShipping.getReceiverName());
@@ -90,7 +93,7 @@ public class OrderServiceImpl implements OrderService {
 //		pdOrderMapper.insert(pdOrder);
 		return orderId;
 	}
-
+	//时间戳+随机数作为订单号
 	public synchronized String generateId() {
 		Random random = new Random();
 		int number = random.nextInt(9000000) + 1000000;
