@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="06-ribbon" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <module name="sp06-ribbon" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="cn.tedu.sp06.Sp06RibbonApplication" />
+    <option name="ENABLE_JMX_AGENT" value="false" />
+    <option name="PROGRAM_PARAMETERS" value="--server.port=3001" />
+    <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/springcloud-02/sp06-ribbon" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
