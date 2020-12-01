@@ -7,22 +7,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="sp03-orderservice" />
-        <module name="sp09-feign" />
-        <module name="rabbitmq-api" />
-        <module name="sp06-ribbon" />
-        <module name="sp10-turbine" />
-        <module name="sp05-eureka" />
-        <module name="pd-web" />
-        <module name="sp02-itemservice" />
-        <module name="sp01-commons" />
-        <module name="sp08-hystrix-dashboard" />
         <module name="sp11-zuul" />
+        <module name="sp01-commons" />
+        <module name="rabbitmq-api" />
         <module name="sp03-userservice" />
+        <module name="sp02-itemservice" />
+        <module name="sp05-eureka" />
+        <module name="sp10-turbine" />
+        <module name="sp08-hystrix-dashboard" />
+        <module name="sp03-orderservice" />
+        <module name="pd-web" />
+        <module name="sp06-ribbon" />
         <module name="sp12-config" />
+        <module name="sp09-feign" />
+        <module name="pd-consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
+      <module name="pd-consumer" target="1.8" />
       <module name="pd-web" target="1.8" />
       <module name="rabbitmq-api" target="1.8" />
       <module name="sp01-commons" target="1.8" />

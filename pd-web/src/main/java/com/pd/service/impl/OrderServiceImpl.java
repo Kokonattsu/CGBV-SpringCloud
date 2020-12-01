@@ -62,9 +62,10 @@ public class OrderServiceImpl implements OrderService {
 	public String saveOrder(PdOrder pdOrder) throws Exception {
 		String orderId = generateId();
 		pdOrder.setOrderId(orderId);
-		//把订单加入队列
+		//把订单对象序列化成byte[],发送到rabbitMQ
 		amqpTemplate.convertAndSend("orderQueue",pdOrder);
-		
+
+
 //		PdShipping pdShipping = pdShippingMapper.selectByPrimaryKey(pdOrder.getAddId());
 //		pdOrder.setShippingName(pdShipping.getReceiverName());
 //		pdOrder.setShippingCode(pdShipping.getReceiverAddress());
