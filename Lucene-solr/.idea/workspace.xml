@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2e9f0655-fdb1-4374-b767-b56c790890f1" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/$CACHE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_analyzers_common_8_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_analyzers_smartcn_8_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_core_8_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lucene-dame/lucene-dame.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lucene-dame/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lucene-dame/src/main/java/test/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/$CACHE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__com_rabbitmq_http_client_3_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_assertj_assertj_core_3_16_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_hamcrest_hamcrest_library_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_slf4j_slf4j_api_1_8_0_alpha2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_8_0_alpha2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_2_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_2_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_junit_2_2_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_test_2_2_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_2_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_springframework_spring_aop_5_2_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_springframework_spring_beans_5_2_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_springframework_spring_context_5_2_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_springframework_spring_core_5_2_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_springframework_spring_expression_5_2_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_springframework_spring_messaging_5_2_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_springframework_spring_test_5_2_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_springframework_spring_tx_5_2_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_springframework_spring_web_5_2_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/rabbitmq.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/rabbitmq-springboot/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/rabbitmq-springboot/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/rabbitmq-springboot/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/rabbitmq-springboot/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/rabbitmq-springboot/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/rabbitmq-springboot/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/rabbitmq-springboot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/rabbitmq-springboot/src/main/java/cn/tedu/rabbitmqspringboot/RabbitmqSpringbootApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/rabbitmq-springboot/src/main/java/cn/tedu/rabbitmqspringboot/m1/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/rabbitmq-springboot/src/main/java/cn/tedu/rabbitmqspringboot/m1/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/rabbitmq-springboot/src/main/java/cn/tedu/rabbitmqspringboot/m1/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/rabbitmq-springboot/src/main/java/cn/tedu/rabbitmqspringboot/m2/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/rabbitmq-springboot/src/main/java/cn/tedu/rabbitmqspringboot/m2/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/rabbitmq-springboot/src/main/java/cn/tedu/rabbitmqspringboot/m2/Run2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/rabbitmq-springboot/src/main/java/cn/tedu/rabbitmqspringboot/m3/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/rabbitmq-springboot/src/main/java/cn/tedu/rabbitmqspringboot/m3/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/rabbitmq-springboot/src/main/java/cn/tedu/rabbitmqspringboot/m3/Run3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/rabbitmq-springboot/src/main/java/cn/tedu/rabbitmqspringboot/m4/Consumer4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/rabbitmq-springboot/src/main/java/cn/tedu/rabbitmqspringboot/m4/Producer4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/rabbitmq-springboot/src/main/java/cn/tedu/rabbitmqspringboot/m4/Run4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/rabbitmq-springboot/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/rabbitmq-springboot/src/test/java/cn/tedu/rabbitmqspringboot/RabbitmqSpringbootApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-02/sp12-config/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-02/sp05-eureka/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-02/sp05-eureka/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.6.3" />
+        <option name="outputLevel" value="DEBUG" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="1l52uTAHwEdxrjRnoM8ttwnQ732" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="新增" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="profiler.jvm" />
+  </component>
+  <component name="RunManager" selected="JUnit.Test1.test2">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lucene-dame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.Test1" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lucene-dame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.Test1" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lucene-dame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.Test" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Test1.test2" />
+        <item itemvalue="JUnit.Test1.test1" />
+        <item itemvalue="JUnit.Test.test1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e9f0655-fdb1-4374-b767-b56c790890f1" name="默认的" comment="" />
+      <created>1606872853364</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606872853364</updated>
+      <workItem from="1606872856400" duration="9352000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="100" y="0" key="#项目结构" timestamp="1606872859513">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="100" y="0" key="#项目结构/0.0.1536.824@0.0.1536.824" timestamp="1606872859513" />
+    <state x="70" y="334" key="FileChooserDialogImpl" timestamp="1606872941909">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="70" y="334" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1606872941909" />
+    <state width="908" height="132" key="GridCell.Tab.0.bottom" timestamp="1606881981277">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="908" height="132" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606881981277" />
+    <state width="908" height="132" key="GridCell.Tab.0.center" timestamp="1606881981277">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="908" height="132" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606881981277" />
+    <state width="908" height="132" key="GridCell.Tab.0.left" timestamp="1606881981277">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="908" height="132" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606881981277" />
+    <state width="908" height="132" key="GridCell.Tab.0.right" timestamp="1606881981277">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="908" height="132" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606881981277" />
+    <state x="482" y="100" width="709" height="656" key="new project wizard" timestamp="1606872968388">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="482" y="100" width="709" height="656" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1606872968388" />
+  </component>
+</project>
