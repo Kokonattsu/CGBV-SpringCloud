@@ -17,7 +17,7 @@ public class OrderServiceImpl implements OrderService{
     @Override
     public void create(Order order) {
         //TODO:从全局唯一发号器获得id
-        Long orderId=Long.valueOf(new Random().nextInt(Integer.MAX_VALUE));
+        Long orderId=Math.abs(new Random().nextLong());
         order.setId(orderId);
         orderMapper.create(order);
         log.info("创建订单:"+order.getId());
