@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="RunPdAPP" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+  <configuration default="false" name="pd-web" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
     <module name="pd-web" />
     <extension name="coverage">
       <pattern>
@@ -8,6 +8,7 @@
       </pattern>
     </extension>
     <option name="SPRING_BOOT_MAIN_CLASS" value="com.pd.RunPdAPP" />
+    <option name="ENABLE_JMX_AGENT" value="false" />
     <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/pd-web" />
     <option name="ALTERNATIVE_JRE_PATH" />
     <method v="2">
