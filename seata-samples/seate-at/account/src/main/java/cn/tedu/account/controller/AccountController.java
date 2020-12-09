@@ -14,9 +14,10 @@ public class AccountController {
     @Autowired
     private AccountService accountService;
 
+    //http://localhost/decrease?userId=1&money=100
     @GetMapping("/decrease")
     public String decrease(Long userId, BigDecimal money){
         accountService.decrease(userId, money);
-        return "账户金额扣减成功";
+        return "账户"+userId+"金额扣减"+money+"元";
     }
 }
