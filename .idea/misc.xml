@@ -20,6 +20,7 @@
         <option value="$PROJECT_DIR$/springcloud-02/sp08-hystrix-dashboard/pom.xml" />
         <option value="$PROJECT_DIR$/pd-web/pom.xml" />
         <option value="$PROJECT_DIR$/pd-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/docker-demo/docker-redis/pom.xml" />
       </list>
     </option>
   </component>

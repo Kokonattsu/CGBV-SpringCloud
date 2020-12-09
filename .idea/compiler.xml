@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="docker-redis" />
         <module name="sp11-zuul" />
         <module name="sp01-commons" />
         <module name="sp06-ribbon" />
@@ -18,13 +19,12 @@
         <module name="sp10-turbine" />
         <module name="pd" />
         <module name="sp08-hystrix-dashboard" />
-        <module name="pd-web" />
         <module name="sp12-config" />
         <module name="sp09-feign" />
-        <module name="pd-consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
+      <module name="docker-redis" target="1.8" />
       <module name="pd" target="1.8" />
       <module name="pd-consumer" target="1.8" />
       <module name="pd-web" target="1.8" />
