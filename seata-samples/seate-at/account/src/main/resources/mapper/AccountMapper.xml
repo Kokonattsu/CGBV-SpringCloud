@@ -10,6 +10,8 @@
         <result column="frozen" property="frozen" jdbcType="DECIMAL"/>
     </resultMap>
     <update id="decrease">
-    UPDATE account SET residue = residue - #{money},used = used + #{money} where user_id = #{userId};
+    UPDATE account
+    SET residue = residue - #{money},used = used + #{money}
+    where user_id = #{userId};
   </update>
 </mapper>

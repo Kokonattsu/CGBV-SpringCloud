@@ -35,13 +35,13 @@ public class OrderServiceImpl implements OrderService{
         order.setId(orderId);
         orderMapper.create(order);
         //减少商品库存
-//        storageClient.decrease(
-//                order.getProductId(),
-//                order.getCount());
+        storageClient.decrease(
+                order.getProductId(),
+                order.getCount());
         //减少账户余额
-//        accountClient.decrease(
-//                order.getUserId(),
-//                order.getMoney());
+        accountClient.decrease(
+                order.getUserId(),
+                order.getMoney());
         log.info("订单:"+orderId+"创建完毕");
     }
 }
