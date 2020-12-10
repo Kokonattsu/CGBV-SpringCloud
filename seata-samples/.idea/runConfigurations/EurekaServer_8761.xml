@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="EurekaServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+  <configuration default="false" name="EurekaServer-8761" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
     <module name="eureka-server" />
     <option name="SPRING_BOOT_MAIN_CLASS" value="cn.tedu.eurekaserver.EurekaServerApplication" />
     <option name="ENABLE_JMX_AGENT" value="false" />
