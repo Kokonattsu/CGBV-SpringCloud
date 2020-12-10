@@ -14,4 +14,17 @@
         VALUES(#{id}, #{userId}, #{productId}, #{count}, #{money},1);
     </insert>
 
+<!--添加-->
+    <insert id="create">
+        INSERT INTO `order` (`id`,`user_id`,`product_id`,`count`,`money`,`status`)
+        VALUES(#{id}, #{userId}, #{productId}, #{count}, #{money}, ${status});
+    </insert>
+<!--修改-->
+    <update id="updateStatus" >
+        UPDATE `order` SET `status`=#{status} WHERE `id`=#{orderId};
+    </update>
+<!--删除-->
+    <delete id="deleteById">
+        DELETE FROM `order` WHERE `id`=#{orderId}
+    </delete>
 </mapper>

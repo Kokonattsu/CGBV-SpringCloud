@@ -59,7 +59,7 @@
         </dependency>
 
 <!--    seata依赖    -->
-<!--        <dependency>
+        <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid-spring-boot-starter</artifactId>
             <version>${druid-spring-boot-starter.version}</version>
@@ -80,7 +80,7 @@
           <groupId>io.seata</groupId>
           <artifactId>seata-all</artifactId>
           <version>${seata.version}</version>
-        </dependency>-->
+        </dependency>
 
 
         <dependency>
