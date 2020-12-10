@@ -16,5 +16,10 @@ public class StorageServiceImpl implements StorageService{
     @Override
     public void decrease(Long productId, Integer count) throws Exception {
         storageMapper.decrease(productId,count);
+
+        //模拟异常
+        if(Math.random()>0.5){
+            throw new RuntimeException("storage出现异常");
+        }
     }
 }
