@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Account" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+  <configuration default="false" name="Account-at" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
     <module name="account" />
     <option name="SPRING_BOOT_MAIN_CLASS" value="cn.tedu.account.AccountApplication" />
     <option name="ENABLE_JMX_AGENT" value="false" />

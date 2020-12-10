@@ -1,7 +1,7 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="DbInit" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-    <module name="db-init" />
-    <option name="SPRING_BOOT_MAIN_CLASS" value="cn.tedu.dbinit.DbInitApplication" />
+  <configuration default="false" name="Order-at" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <module name="order" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="cn.tedu.order.OrderApplication" />
     <option name="ENABLE_JMX_AGENT" value="false" />
     <option name="ALTERNATIVE_JRE_PATH" />
     <method v="2">
