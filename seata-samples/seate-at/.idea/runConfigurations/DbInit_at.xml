@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="DbInit-at" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+  <configuration default="false" name="DbInit-at（重置数据库！）" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
     <module name="db-init" />
     <option name="SPRING_BOOT_MAIN_CLASS" value="cn.tedu.dbinit.DbInitApplication" />
     <option name="ENABLE_JMX_AGENT" value="false" />
