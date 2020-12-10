@@ -2,7 +2,7 @@
   <configuration default="false" name="seata-server" type="BatchConfigurationType" factoryName="Batch">
     <module name="seata-samples" />
     <option name="INTERPRETER_OPTIONS" value="" />
-    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seate-at/seata/bin" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../seata/bin" />
     <option name="PARENT_ENVS" value="true" />
     <option name="SCRIPT_NAME" value="seata-server.bat" />
     <option name="PARAMETERS" value="" />
