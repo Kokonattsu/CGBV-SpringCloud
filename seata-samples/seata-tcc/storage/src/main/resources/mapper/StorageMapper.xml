@@ -8,9 +8,32 @@
         <result column="used" property="used" jdbcType="INTEGER" />
         <result column="residue" property="residue" jdbcType="INTEGER" />
     </resultMap>
+<!--  减掉订单的商品数量，添加到已使用  -->
     <update id="decrease">
       UPDATE storage
       SET used = used + #{count},residue = residue - #{count}
       WHERE product_id = #{productId}
+    </update>
+<!--根据商品id查询-->
+    <select id="selectById" resultMap="BaseResultMap">
+        SELECT * FROM storage WHERE `product_id`=#{productId}
+    </select>
+<!--剩余库存减少，添加到临时库存-->
+    <update id="updateFrozen">
+        UPDATE storage
+        SET `residue`=#{residue},`frozen`=#{frozen}
+        WHERE `product_id`=#{productId}
+    </update>
+<!--提交事务，增加到已使用库存-->
+    <update id="updateFrozenToUsed">
+        UPDATE storage
+        SET `frozen`=`frozen`-#{count}, `used`=`used`+#{count}
+        WHERE `product_id`=#{productId}
+    </update>
+<!--回滚事务，添加到剩余库存-->
+    <update id="updateFrozenToResidue">
+        UPDATE storage
+        SET `frozen`=`frozen`-#{count}, `residue`=`residue`+#{count}
+        WHERE `product_id`=#{productId}
     </update>
 </mapper>

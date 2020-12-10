@@ -9,13 +9,13 @@
         <result column="money" property="money" jdbcType="DECIMAL" />
         <result column="status" property="status" jdbcType="INTEGER" />
     </resultMap>
-    <insert id="create">
+  <!--  <insert id="create">
         INSERT INTO `order` (`id`,`user_id`,`product_id`,`count`,`money`,`status`)
         VALUES(#{id}, #{userId}, #{productId}, #{count}, #{money},1);
     </insert>
-
+-->
 <!--添加-->
-    <insert id="create">
+    <insert id="create" >
         INSERT INTO `order` (`id`,`user_id`,`product_id`,`count`,`money`,`status`)
         VALUES(#{id}, #{userId}, #{productId}, #{count}, #{money}, ${status});
     </insert>
