@@ -9,9 +9,26 @@
         <result column="residue" property="residue" jdbcType="DECIMAL"/>
         <result column="frozen" property="frozen" jdbcType="DECIMAL"/>
     </resultMap>
+<!--  没有事务减少账户金额  -->
     <update id="decrease">
     UPDATE account
     SET residue = residue - #{money},used = used + #{money}
     where user_id = #{userId};
   </update>
+<!--开启事务前查看剩余金额是否足够-->
+    <select id="selectById" resultMap="BaseResultMap">
+        SELECT * FROM account WHERE `user_id`=#{userId}
+    </select>
+<!--准备阶段、剩余金额添加到冻结数据-->
+    <update id="updateFrozen">
+        UPDATE account SET `residue`=#{residue},`frozen`=#{frozen} WHERE `user_id`=#{userId}
+    </update>
+<!--提交事务、冻结金额添加到已使用-->
+    <update id="updateFrozenToUsed">
+        UPDATE account SET `frozen`=`frozen`-#{money}, `used`=`used`+#{money} WHERE `user_id`=#{userId}
+    </update>
+<!--回滚事务、将冻结金额添加到剩余金额-->
+    <update id="updateFrozenToResidue">
+        UPDATE account SET `frozen`=`frozen`-#{money}, `residue`=`residue`+#{money} WHERE `user_id`=#{userId}
+    </update>
 </mapper>

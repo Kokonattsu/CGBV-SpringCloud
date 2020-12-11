@@ -1,6 +1,5 @@
 package cn.tedu.order.tcc;
 
-import cn.tedu.order.entity.Order;
 import io.seata.rm.tcc.api.BusinessActionContext;
 import io.seata.rm.tcc.api.BusinessActionContextParameter;
 import io.seata.rm.tcc.api.LocalTCC;

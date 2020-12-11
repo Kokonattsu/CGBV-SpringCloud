@@ -53,10 +53,10 @@ public class OrderServiceImpl implements OrderService{
         storageClient.decrease(
                 order.getProductId(),
                 order.getCount());
-//        //减少账户余额
-//        accountClient.decrease(
-//                order.getUserId(),
-//                order.getMoney());
+        //减少账户余额
+        accountClient.decrease(
+                order.getUserId(),
+                order.getMoney());
         log.info("订单:"+orderId+"创建完毕");
     }
 }
