@@ -22,5 +22,8 @@ public class AccountServiceImpl implements AccountService {
                 null,
                 userId,
                 money);
+//        if(Math.random()>0.5){
+//            throw new RuntimeException("模拟异常");
+//        }
     }
 }
